@@ -1,0 +1,448 @@
+{
+"intents":
+[{
+    "tag" : "Salam",
+    "patterns" : [
+        "halo",
+        "hai",
+        "hola",
+        "hello",
+        "hei",
+        "hi",
+        "halo teman",
+        "halo acabot",
+        "halo bot",
+        "permisi, halo",
+        "apakah kamu ada?",
+        "halo bot, bisa ngobrol?",
+        "bisa bicara?",
+        "permisi",
+        "selamat pagi",
+        "selamat siang",
+        "selamat sore",
+        "selamat malam",
+        "assamualaikum",
+        "shalom",
+        "apakah ini chatbot baa?"
+    ],
+    "responses" : [
+        "Halo, Selamat datang di Chatbot BAA Institut Asia Malang, Saya dapat membantu kamu untuk mendapatkan informasi akademik, silahkan tuliskan hal yang ingin kamu tahu  - Tim BAA",
+        "Haii!!, Apa yang anda butuhkan?",
+        "Halo, Silahkan bertanya pada kami.",
+        "Selamat datang di Chatbot Biro Administrasi Akademik Institut Asia Malang - Tim BAA"
+    ]
+},
+{
+    "tag" : "Tanya",
+    "patterns" : [
+        "saya ingin bertanya",
+        "aku mau nanya",
+        "mau nanya",
+        "aku bingung",
+        "saya bingung",
+        "apakah saya boleh bertanya?",
+        "apakah aku boleh nanya?"
+    ],
+    "responses" :[
+        "Silahkah bertanya, kami siap membantu."
+    ]
+},
+{
+    "tag" : "Penutup",
+    "patterns" : [
+        "terima kasih",
+        "selamat tinggal",
+        "terima kasih infonya",
+        "sampai jumpa lagi",
+        "terima kasih informasinya",
+        "baik terima kasih",
+        "dadah",
+        "bye",
+        "sampai bertemu lagi",
+        "aku pergi",
+        "dah",
+        "makasi",
+        "makasih",
+        "makasih ya"
+    ],
+    "responses" : [
+        "Silahkan bertanya dilain waktu.",
+        "Terima kasih sudah menggunakan layanan kami.",
+        "Sama - sama",
+        "Semoga harimu menyenangkan",
+        "Terima kasih sudah menggunakan layanan ini - Tim BAA",
+        "Sampai jumpa lagi!!",
+        "Baik, terima kasih kembali",
+        "Dadahh!!",
+        "Byee!!!"
+    ]
+},
+{
+    "tag" : "Nama",
+    "patterns" : [
+        "nama",
+        "siapa nama anda?",
+        "apakah anda mempunyai nama?",
+        "apakah kamu punya nama?",
+        "siapa kamu?",
+        "dengan siapa ini?",
+        "dengan siapa aku berbicara?",
+        "apa kamu ini?",
+        "bagaimana aku memanggilmu?",
+        "siapa ini?"
+    ],
+    "responses" : [
+        "Saya dari Tim Layanan Biro Administrasi Akademik, silahkan berkonsultasi dengan saya :)",
+        "Saya AcaBot Asia, silahkan bertanya.",
+        "Anda bisa memanggil saya dengan AcaBot, siap untuk membantu anda.",
+        "Saya adalah chatbot yang dirancang untuk membantu anda."
+    ]
+},
+{
+    "tag": "Jam Kampus",
+    "patterns": [
+      "Kapan kampus buka?",
+      "Apa kampus buka sekarang?",
+      "Kampus buka jam berapa?",
+      "Kampus dari jam berapa sampai jam berapa?",
+      "Apakah kampus buka di hari Sabtu?",
+      "Apakah kampus buka di tanggal merah?",
+      "Kapan saya harus datang ke kampus?",
+      "Kampus tutup jam berapa?",
+      "Berapa lama kampus buka setiap hari?",
+      "Hari Sabtu kampus buka sampai jam berapa?",
+      "Apakah kampus buka pada malam hari?",
+      "Apakah saya bisa datang ke kampus di sore hari?",
+      "Apa jam operasional kampus berbeda di hari Sabtu?"
+    ],
+    "responses": [
+      "Kampus buka di jam 07.00 - 21.00 hari Senin - Sabtu.",
+      "Kampus tutup pada tanggal merah dan perayaan hari besar."
+    ]
+},
+{
+    "tag": "Jam BAA",
+    "patterns": [
+      "Jam operasi dari BAA",
+      "Apakah BAA buka di hari Sabtu?",
+      "Jam pelayanan administrasi kampus apa saja?",
+      "Kapan saya bisa mengurus KRS?",
+      "Apa BAA buka di akhir pekan?",
+      "Apa jam layanan akademik sudah dimulai?",
+      "Jam layanan akademik kampus?",
+      "Apa ada jam layanan khusus pada hari tertentu?",
+      "Kapan BAA buka?",
+      "Jam berapa BAA buka"
+    ],
+    "responses": [
+      "Jam layanan BAA tersedia pada 08.00 - 20.00 offline maupun online"
+    ]
+},
+{
+    "tag" : "Nomor",
+    "patterns" : [
+        "info lebih lanjut",
+        "info kontak",
+        "bagaimana cara menghubungi kampus",
+        "nomor telepon kampus",
+        "nomor kuliah",
+        "apa no kontakmu",
+        "nomor kontak?",
+        "bagaimana memanggilmu",
+        "telepon kampus, tidak?",
+        "bagaimana aku bisa menghubungimu",
+        "bolehkah aku mendapatkan nomor teleponmu",
+        "bagaimana aku memanggilmu",
+        "nomor telepon",
+        "no Telepon",
+        "panggilan"
+    ],
+    "responses" : [
+        "Kamu bisa menghubungi WhatsApp Center Akademik di nomor 085175134514, dan juga bisa menghubungi saya melalui email akademik@asia.ac.id"
+    ]
+},
+{
+    "tag" : "KRS",
+    "patterns" : [
+        "Kapan KRS-an?",
+        "Kapan saya bisa memilih KRS?",
+        "Apakah masih belum bisa mengajukan KRS?",
+        "Kapan bisa mengajukan KRS?",
+        "KRS",
+        "Info KRS",
+        "Jadwal KRS",
+        "KRS tanggal berapa?",
+        "KRS-an",
+        "Bagaimana cara mengajukan KRS?",
+        "Kapan KRS untuk semester depan?",
+        "Kapan waktu untuk KRS?",
+        "Apakah KRS sudah dibuka?",
+        "Kapan pengisian KRS dimulai?",
+        "Apa jadwal KRS sudah diumumkan?",
+        "Bagaimana saya tahu jadwal KRS?",
+        "Dimana saya bisa melihat jadwal KRS?",
+        "Kapan bisa memilih mata kuliah KRS?",
+        "Kapan pengisian KRS semester genap?",
+        "Kapan waktu KRS semester ganjil?",
+        "Kapan mulai bisa KRS?",
+        "Apakah pengisian KRS bisa dilakukan sekarang?",
+        "Kapan batas akhir pengisian KRS?",
+        "Apa jadwal pengisian KRS sudah tersedia?",
+        "Kapan mahasiswa bisa KRS-an?",
+        "Apakah KRS semester ini sudah dibuka?",
+        "Jadwal pengisian KRS semester ini kapan?",
+        "Kapan periode KRS dibuka?",
+        "Kapan batas waktu untuk KRS?"
+    ],
+    "responses" : [
+        "Jadwal KRS semester ganjil TA 2023/2024 dilakukan pada 28 Agustus - 5 Septermber 2023, Jadwal KRS semester genap TA 2023/2024 dilakukan pada 26 Februari - 5 Maret 2024, untuk informasi lebih detail bisa dilihat melalui Kalender Akademik di link berikut : <a target='_blank' href='https://akademik.asia.ac.id/#kalender'>Klik tautan ini</a>"
+    ]
+},
+{
+    "tag" : "Kalender",
+    "patterns" : [
+        "kapan perkuliahan aktif dimulai?",
+        "kapan mulai libur semester ganjil?",
+        "kapan mulai libur semester genap?",
+        "dimana bisa lihat kalender akademik?",
+        "kapan uts?",
+        "uts kapan sih",
+        "kapan uas?",
+        "uas kapan sih?",
+        "kapan remidi?",
+        "kapan wisuda",
+        "libur natal berapa lama?",
+        "libur idul fitri berapa lama?",
+        "kapan masuk semester ganjil?",
+        "kapan masuk semester genap?"
+    ],
+    "responses" : [
+        "Informasi mengenai kalender akademik bisa kamu akses pada link berikut : <a target='_blank' href='https://akademik.asia.ac.id/#kalender'>Klik tautan ini</a>"
+    ]
+},
+{
+    "tag" : "KHS",
+    "patterns" : [
+        "Berapa IP saya?",
+        "Berapa IP saya semester ini?",
+        "Berapa nilai matkul saya?",
+        "Lihat nilai semester ini dimana?",
+        "IPK saya berapa?",
+        "Lihat detail nilai matkul dimana?",
+        "KHS",
+        "Info nilai",
+        "Info KHS",
+        "Kenapa nilai saya belum muncul?",
+        "Apa nilai semester ini belum muncul?",
+        "Di mana saya bisa melihat nilai saya?",
+        "Apa saya sudah bisa melihat nilai semester ini?",
+        "Bagaimana cara melihat nilai KHS?",
+        "Bagaimana cara melihat nilai di SIMAKA?",
+        "Apakah IP semester ini sudah keluar?",
+        "Kenapa nilai saya belum diupdate?",
+        "Bagaimana mengecek nilai saya?",
+        "Di mana melihat nilai KHS saya?",
+        "Nilai saya belum terlihat, kenapa?",
+        "Bagaimana cara cek IP semester ini?",
+        "Apa IPK saya sudah update?",
+        "Nilai semester lalu saya ada dimana?",
+        "Dimana cek IP semester saya?",
+        "Kenapa KHS saya masih kosong?",
+        "Apakah nilai matkul sudah diumumkan?",
+        "Bagaimana mengetahui IP saya sekarang?",
+        "Apa semua nilai sudah lengkap di KHS?"
+    ],
+    "responses" : [
+        "Informasi mengenai nilai Kartu Hasil Studi bisa kamu akses pada website SIMAKA Asia : <a target='_blank' href='https://simaka.asia.ac.id/'>Klik tautan ini</a>, kemudian lihat pada menu KHS",
+        "Untuk melihat nilai, silakan login ke SIMAKA Asia dan akses menu KHS.",
+        "Pastikan nilai sudah diupdate oleh dosen. Jika masih kosong, hubungi bagian akademik untuk informasi lebih lanjut."
+    ]
+},
+{
+    "tag" : "Yudisium",
+    "patterns" : [
+        "gimana cara daftar yudisium?",
+        "apa saja syarat yudisium?",
+        "syarat yudisium apa saja",
+        "apakah ada persyaratan khusus untuk yudisium?",
+        "dokumen apa saya yang harus disiapkan untuk yudisium?",
+        "yudisium",
+        "prosedur pendaftaran yudisium",
+        "daftar yudisium",
+        "info yudisium",
+        "syarat yudisium feb",
+        "syarat yudisium ftd"
+    ],
+    "responses" : [
+        "Prosedur pendaftaran yudisium : Mahasiswa mengunduh syarat yudisium di <a target='_blank' href='https://akademik.asia.ac.id/'>Klik tautan ini</a>, lalu melengkapi semua persyaratan yang ada di formulir"
+    ]
+},
+{
+    "tag" : "KartuUjian",
+    "patterns" : [
+        "cetak kartu ujian dimana?",
+        "cetak kartu uts dimana?",
+        "cetak kartu uas dimana?",
+        "cara print kartu uas gimana ya?",
+        "cara print kartu uts gimana ya?",
+        "cara print kartu ujian gimana ya?",
+        "boleh minta link kartu ujian?",
+        "kartu ujian",
+        "kartu uas",
+        "kartu uts",
+        "cetak kartu ujian",
+        "apa syarat dapat kartu ujian",
+        "link kartu ujian?",
+        "link kartu uts",
+        "link kartu uas",
+        "info kartu ujian",
+        "kapan bisa dapat kartu ujian",
+        "dimana bisa dapat kartu ujian?",
+        "saya ingin mendapatkan kartu ujian, gimana caranya?",
+        "mau cetak kartu",
+        "mau kartu ujian",
+        "pengen cetak kartu ujian"
+    ],
+    "responses" : [
+        "Silahkan akses link berikut untuk mendapatkan kartu ujian : <a target='_blank' href='http://bit.ly/kartuujianASIA'>Klik tautan ini</a>"
+    ]
+},
+{
+    "tag" : "CutiKuliah",
+    "patterns" : [
+        "mau cuti kuliah",
+        "cara mengajukan cuti kuliah",
+        "cuti",
+        "cuti kuliah",
+        "apa prosedur cuti kuliah?",
+        "gimana cara mengajukan cuti kuliah?",
+        "saya ingin cuti kuliah, apa yang harus dilakukan?",
+        "gimana proses pengajuan cuti kuliah?",
+        "apa syarat cuti kuliah","apa persyaratan untuk mengajukan cuti kuliah?",
+        "apa yang diperlukan untuk cuti kuliah?",
+        "dokumen cuti kuliah",
+        "berkas cuti kuliah",
+        "mengundurkan diri",
+        "bagaimana cara mengundurkan diri dari kampus?",
+        "saya ingin berhenti kuliah, apa yang harus dilakukan?",
+        "proses pengunduran diri dari asia bagaimana?",
+        "apa syarat untuk resign dari kampus?",
+        "saya mau keluar dari kampus, tolong bantu."
+    ],
+    "responses" : [
+        "Untuk mengajukan cuti kuliah, Kamu perlu menghubungi admin fakultas dan mengisi formulir cuti kuliah yang tersedia di link berikut : <a target='_blank' href='https://akademik.asia.ac.id/'>Klik tautan ini</a>"
+    ]
+},
+{
+    "tag" : "PindahProgram",
+    "patterns" : [
+        "gimana cara pindah program studi?",
+        "cara pindah program studi?",
+        "apa syarat pindah program studi",
+        "saya ingin pindah jurusan, apa yang harus saya lakukan?",
+        "pindah prodi",
+        "pindah program studi",
+        "pindah jurusan",
+        "prosedur pindah program studi",
+        "cara pindah program studi",
+        "gimana proses pengajuan pindah program studi?",
+        "apa yang diperlukan untuk pindah program studi?",
+        "dokumen pindah program studi",
+        "berkas cuti kuliah"
+    ],
+    "responses" : [
+        "Untuk pengajuan pindah program, Kamu perlu menghubungi admin fakultas dan mengisi formulir pindah program yang tersedia di link berikut : <a target='_blank' href='https://akademik.asia.ac.id/'>Klik tautan ini</a>"
+    ]
+},
+{
+    "tag" : "Akreditasi",
+    "patterns" : [
+        "akreditasi",
+        "sertifikat akreditasi",
+        "cek akreditasi",
+        "akreditasi kampus",
+        "akreditasi manajemen",
+        "akreditasi ti",
+        "akreditasi dkv",
+        "akreditasi akutansi",
+        "akreditasi sk",
+        "apa akreditasi asia?",
+        "asia terakreditasi apa?",
+        "detail akreditasi",
+        "sertifikat akreditasi institut asia",
+        "akreditasi prodi",
+        "cara melihat akreditasi kampus",
+        "cara melihat akreditasi prodi ti",
+        "cara melihat akreditasi prodi sk",
+        "cara melihat akreditasi prodi dkv",
+        "cara melihat akreditasi prodi manajemen",
+        "cara melihat akreditasi prodi akuntansi",
+        "berapa lama akreditasi asia berlaku?",
+        "apa saja program studi yang terakreditasi di institut asia?"
+    ],
+    "responses" : [
+        "Untuk melihat detail akreditasi kampus dan juga akreditasi program studi, kamu dapat melihatnya di link berikut : <a target='_blank' href='https://akademik.asia.ac.id/akreditasi'>Klik tautan ini</a>"
+    ]
+},
+{
+    "tag" : "Kontak",
+    "patterns" : [
+        "Info lebih lanjut",
+        "kontak",
+        "kontak yang dapat dihubungi",
+        "nomor kontak",
+        "nomor universitas",
+        "bagaimana cara menghubungi asia?",
+        "no kontak",
+        "nomor baa",
+        "nomer baa",
+        "no baa",
+        "berapa nomor mu",
+        "bisakah saya dapat nomor wa mu?",
+        "no wa",
+        "nomor whatsapp",
+        "nomor",
+        "whatsapp",
+        "telp",
+        "telepon",
+        "minta nomor kampus"
+    ],
+    "responses" : [
+        "Kamu bisa menghubungi kami di nomor 085175134514.",
+        "Informasi lebih lengkap bisa menghubungi 085175134514.",
+        "Berikut nomor WhatsApp dari BAA 085175134514."
+    ]
+},
+{
+    "tag": "barang_hilang",
+    "patterns": [
+      "Saya kehilangan barang",
+      "Ada barang hilang",
+      "Dimana saya melaporkan barang hilang?",
+      "Saya tidak menemukan barang saya",
+      "Barang saya hilang, apa yang harus saya lakukan?",
+      "Kemana saya harus melapor jika barang saya hilang?",
+      "Saya kehilangan dompet, kemana harus lapor?",
+      "Siapa yang bisa saya hubungi untuk barang hilang?",
+      "Bagaimana cara melaporkan barang hilang?",
+      "Apakah ada tempat untuk melapor barang hilang?",
+      "Jika saya kehilangan sesuatu, kemana melapornya?",
+      "Tolong bantu saya, barang saya hilang",
+      "Apa langkah pertama jika barang saya hilang?",
+      "Kemana saya harus pergi untuk barang hilang?",
+      "Adakah prosedur untuk melaporkan barang hilang?",
+      "Saya tidak tahu lokasi barang saya, kemana harus melapor?",
+      "Apakah barang hilang bisa dilaporkan ke BAA?",
+      "Dimana tempat melaporkan kehilangan barang di kampus?",
+      "Saya butuh bantuan untuk menemukan barang yang hilang",
+      "Apakah BAA menangani barang hilang?"
+    ],
+    "responses": [
+      "Silakan melaporkan barang hilang Anda ke Biro Administrasi Akademik (BAA).",
+      "Untuk barang hilang, Anda bisa menghubungi BAA atau mengunjungi BAA di lobby.",
+      "Barang hilang dapat dilaporkan ke BAA. Pastikan Anda menyebutkan detail barang Anda.",
+      "Anda dapat melapor ke BAA untuk bantuan lebih lanjut terkait barang hilang."
+    ]
+  }  
+]
+}
